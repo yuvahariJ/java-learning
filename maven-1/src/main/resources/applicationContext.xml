@@ -9,6 +9,8 @@
     <bean id="helloWorld" class="com.createSpringContext.ioc.HelloWorld">
     	<property name="stringMsg" value="OM Namo Ganapathy"/>
     </bean>
+    
+    
     <bean id="helloWorldAgain" class="com.createSpringContext.ioc.HelloWorld">
     	<constructor-arg name="stringMsg" value="checking its value"></constructor-arg>
     	    </bean>
