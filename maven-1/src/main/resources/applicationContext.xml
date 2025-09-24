@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="helloWorld" class="com.createSpringContext.ioc.HelloWorld">
+    	<property name="stringMsg" value="OM Namo Ganapathy"/>
+    </bean>
+    <bean id="helloWorldAgain" class="com.createSpringContext.ioc.HelloWorld">
+    	<constructor-arg name="stringMsg" value="checking its value"></constructor-arg>
+    	    </bean>
+    
+
+</beans>
